@@ -1,4 +1,8 @@
- import * as actionType from './action';
+// this reducer.js component is not using bcz new rootreducer created 
+// first is counter.js and 2nd one is result.js
+//simply means different reducer is create for every components 
+
+import * as actionType from './action';
  
  const initialState = {
      counter: 0,
